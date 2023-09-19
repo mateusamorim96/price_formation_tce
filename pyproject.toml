@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "price-formation-tce"
+version = "0.1.0"
+description = ""
+authors = ["Mateus Silva <mateus_amorim96@yahoo.com.br>"]
+readme = "README.md"
+packages = [{include = "price_formation_tce"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+langchain = "^0.0.240"
+ipykernel = "^6.25.0"
+python-dotenv = "^1.0.0"
+openai = "^0.27.8"
+huggingface-hub = "^0.16.4"
+transformers = "^4.31.0"
+sentence-transformers = "^2.2.2"
+torch = "2.0.0"
+jupyter = "^1.0.0"
+streamlit = "^1.25.0"
+elasticsearch = "7.10.1"
+spacy = "^3.6.1"
+pylint = "^2.17.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

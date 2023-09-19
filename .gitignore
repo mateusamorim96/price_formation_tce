@@ -1,0 +1,9 @@
+*.ipynb
+*.csv
+.env
+*.json
+*.Identifier
+__pycache__
+*.dot
+*.plantuml
+*.deb
